@@ -44,7 +44,8 @@ button {
 
 .eight {
   text-align: center;
-
+  font-family: sans-serif;
+  font-size: 20px
 }
 
 #travel {
@@ -75,5 +76,5 @@ background-color: brown;
 
 #staycation {
   text-align: center;
-  background-color:linear-gradient(#e5b949, #aee9f2) 
+  background-color:linear-gradient(#abccc8, #607270)
 }

@@ -22,13 +22,13 @@ $(document).ready(function() {
     $('#swim-yes').hide();
     $('#jersey-city').hide();
     $('no-swim').hide();
-  } else if (swim > 3 && location === 2) {
+  } else if (swim > 3 && location === 2 && shoes >= 3) {
     $('#swim-yes').show();
     $('#staycation').hide();
     $('#no-swim').hide();
     $('#jersey-city').hide();
     $('#cold-weather').hide();
-  } else if (shoes === 1 && location === 3) {
+  } else if (shoes === 1 && location === 3  && distance >= 200) {
     $('#jersey-city').show();
     $('#staycation').hide();
     $('#no-swim').hide();
