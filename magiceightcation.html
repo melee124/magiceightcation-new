@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>MAGICEIGHTCATION</title>
+  </head>
+  <body>
+  <div class="container">
+    <div class="eight">
+      <h1>Where would you like to go?</h1>
+      <img src="images/magiceight.jpg" alt="Magic Eight Ball">
+      <p>If, like many, you don't like making decisions, this is the website for you! Simply answer a few questions, hit the <span style="color:#771910">MAGICEIGHTCATION ME!</span> button, and we'll make the decision for you. Get travelling!</p>
+    </div>
+    <div class="row">
+      <form id="travel">
+        <div class="col-6-2">
+          <label for="distance">Distance from home</label>
+          <input id="distance" type="text">
+        </div>
+        <div class="col-6-2">
+          <label for="temperature">Ambient temperature</label>
+          <input id="temperature" type="text">
+        </div>
+        <div class="col-6-2">
+          <label for="swim">How much do you like to swim, on a scale of one to ten?</label>
+          <input id="swim" type="text">
+        </div>
+        <div class="col-6-2">
+          <h4>Where would you like to be?</h4>
+          <select class="form-control" id="location">
+            <option value="1">Mountain</option>
+            <option value="2">Beach</option>
+            <option value="3">City</option>
+            <option value="4">Desert</option>
+          </select>
+        </div>
+        <div class="col-6-2">
+          <h4>What about your feet?  What do they want from this vacation?</h4>
+          <select class="form-control" id="shoes">
+            <option value="1">Heels</option>
+            <option value="2">Snow Boots</option>
+            <option value="3">Sandals</option>
+            <option value="4">Bare feet only!</option>
+          </select>
+        </div>
+        <div class="col-6-2">
+          <div class="form-group">
+            <label for="username">And finally, what is your name?</label>
+            <input id="username" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn">Magiceightcation Me!</button>
+        </div>
+      </form>
+    </div>
+    <div id="staycation">
+      <h1> You don't really want to leave, <span class="username"></span>. A staycation is the right choice for you.</h1>
+      <img src="images/stayhome.jpg" alt="Camping in the backyard">
+      <p>Set up that tent in the backyard, get your nails done, or binge-watch tv. Just relax!</p>
+    </div>
+    <div id="cold-weather">
+      <h1> Alright, <span class="username"></span>, you want it to be freezing, and in the mountains?  Easy peasy- MAGICEIGHTCATION knows you should visit:</h1>
+      <img src="images/showhike.jpg" alt="Snowy Mountain Hike">
+      <p>Mount Hood is your ideal vacation spot.  It's a quick drive from Portland, and you'll definitely need your snow gear.</p>
+    </div>
+    <div id="swim-yes">
+      <h1>Sun, sand, and swimming, here you come, <span class="username"></span>! Tahiti is your perfect destination.</h1><img src="images/tahitibeach.jpeg" alt="Beach of Tahiti">
+      <p>With a population of roughly 190,000, this quiet, beautiful beach country is the perfect vacation spot.</p>
+    </div>
+    <div id="jersey-city">
+      <h1>You're city through and through, <span class="username"></span>.  You may want to get away from home, but you don't want to get away from it all.  Book your flight to Atlantic city today!</h1>
+      <img src="images/jersey.jpg" alt="Atlantic City">
+    </div>
+    <div id="no-swim">
+      <h1>Everyone likes to swim, <span class="username"></span>.  Please try again.</h1>
+      <img src="images/disappointment.jpg" alt="A very disappointed statue">
+    </div>
+  </div>
+  </body>
+</html>

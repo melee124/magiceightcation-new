@@ -1,0 +1,79 @@
+#staycation, #cold-weather, #swim-yes, #no-swim, #jersey-city {
+  display: none;
+  border-style: dashed;
+  border-color: orange;
+  border-width: thin;
+}
+
+#travel {
+  border-style: double;
+  border-color: black;
+  border-width: thick;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border-style: groove;
+  border-width:thick;
+  border-color:#3b2ba5;
+}
+
+h1 {
+  font-family: sans-serif;
+  background-color: blue;
+  text-align: center;
+  color: #0c0c0c
+}
+
+p {
+  font-family:fantasy;
+  font-size: large;
+  background-color: green
+}
+
+body {
+  background: linear-gradient(#f76f42, #f2d5cb);
+}
+
+button {
+  background-color: #b7f943;
+  font-family: georgia, serif;
+}
+
+
+.eight {
+  text-align: center;
+
+}
+
+#travel {
+  text-align: center;
+  color: #040b21
+}
+
+#no-swim {
+text-align: center;
+background-color: brown;
+}
+
+#cold-weather {
+  text-align: center;
+  background-color: #a9c0e5
+}
+
+#swim-yes {
+  text-align: center;
+  background: linear-gradient(#e5b949, #aee9f2)
+}
+
+#jersey-city {
+  text-align: center;
+  background-color: gray;
+}
+
+
+#staycation {
+  text-align: center;
+  background-color:linear-gradient(#e5b949, #aee9f2) 
+}
